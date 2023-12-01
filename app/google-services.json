@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "721257406693",
+    "project_id": "tugas-uas-30888",
+    "storage_bucket": "tugas-uas-30888.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721257406693:android:06b0e095fb532a48c3b40c",
+        "android_client_info": {
+          "package_name": "com.usk.ac.id.uas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBihMfXdaKcun5d9YwvSBDKT0MqTURD0qE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

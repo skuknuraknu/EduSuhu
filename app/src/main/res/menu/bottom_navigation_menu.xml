@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:title="Home"
+        android:icon="@drawable/baseline_home_24"/>
+    <item
+        android:id="@+id/navigation_learning"
+        android:title="My Learning"
+        android:icon="@drawable/baseline_play_arrow_24"/>
+    <item
+        android:id="@+id/navigation_completed"
+        android:title="Completed Course"
+        android:icon="@drawable/baseline_school_24"/>
+    <item
+        android:id="@+id/navigation_preferences"
+        android:title="Preferences"
+        android:icon="@drawable/baseline_person_24"/>
+</menu>

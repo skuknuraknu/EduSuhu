@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity"
+    android:background="@drawable/bg"
+    android:padding="15dp"
+    >
+    <TextView
+        android:id="@+id/textViewSignIn"
+        android:layout_marginTop="140dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:fontFamily="@font/montserrat_bold"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:paddingTop="20dp"
+        android:paddingBottom="5dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_edittext"
+        android:padding="8sp"
+        android:drawableLeft="@drawable/baseline_email_24"/>
+    <TextView
+        android:id="@+id/textViewPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:paddingTop="10dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_edittext"
+        android:padding="8sp"
+        android:drawableLeft="@drawable/signin_key"/>
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cool_button"
+        android:textSize="22sp"
+        android:text="SIGN UP"
+        android:textColor="@color/white"
+        android:layout_marginTop="15dp"
+        />
+    <TextView
+        android:id="@+id/textViewForgotPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already have an account? Sign In"
+        android:paddingTop="10dp"
+        android:fontFamily="@font/montserrat_regu"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        android:onClick="goToLogin"
+        android:textAlignment="center"/>
+</LinearLayout>
